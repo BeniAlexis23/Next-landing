@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation"
 import { itemsNavbar } from "@/data"
 import MotionTransition from "@/components/transition-component"
 
-const navbar = () => {
+const Navbar = () => {
     const router = usePathname()
 
     return (
@@ -24,4 +24,4 @@ const navbar = () => {
     )
 }
 
-export default navbar
+export default Navbar
