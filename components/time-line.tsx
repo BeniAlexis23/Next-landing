@@ -1,8 +1,11 @@
 import { dataAboutPage } from "@/data";
+interface TimeLineProps {
+    className?: string; // Agregar className opcional
+}
 
-const TimeLine = () => {
+const TimeLine = ({ className }: TimeLineProps) => {
     return (
-        <div className="flex flex-col justify-center divide-y divide-slate-200">
+        <div className={`flex flex-col justify-center divide-y divide-slate-200 ${className || ""}`}>
             <div className="w-full max-w-3xl mx-auto md:pb-40 md:pt-20">
                 <div className="-my-6">
                     {dataAboutPage.map((data) => (
