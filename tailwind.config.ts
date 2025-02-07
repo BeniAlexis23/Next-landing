@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        secondary: "#f5741c",
-        darkBg: "#131424",
+        secondary: "#0097e6",
+        darkBg: "#192a56",
       },
       backgroundImage: {
         "gradient-cover":

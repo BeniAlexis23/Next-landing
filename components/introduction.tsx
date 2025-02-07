@@ -33,10 +33,10 @@ const Introduction = () => {
                         Como desarrollador frontend, me encanta crear experiencias digitales que sean atractivas y accesibles para todos.
                     </p>
                     <div className='flex items-center justify-center gap-3 md:justify-start md:gap-10'>
-                        <Link href='/projects' className='px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50'>
+                        <Link href='/portfolio' className='px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50'>
                             Ver proyectos
                         </Link>
-                        <Link href='/contact' className='px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary'>
+                        <Link href='/#' className='px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary'>
                             Contacto
                         </Link>
                     </div>
